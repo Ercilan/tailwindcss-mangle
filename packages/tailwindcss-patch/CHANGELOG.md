@@ -1,5 +1,18 @@
 # tailwindcss-patch
 
+## 8.2.3
+
+### Patch Changes
+
+- [`fc73e30`](https://github.com/sonofmagic/tailwindcss-mangle/commit/fc73e304bb67a7df926228f261cc846ed1f81ddd) Thanks [@sonofmagic](https://github.com/sonofmagic)! - Ensure Tailwind v4 candidate extraction only keeps class names that compile to CSS so HTTP header literals like `text/event-stream` no longer leak into the runtime class set.
+
+## 8.2.2
+
+### Patch Changes
+
+- Updated dependencies [[`6799e3b`](https://github.com/sonofmagic/tailwindcss-mangle/commit/6799e3b319ed27f227f698c7971256fc427921f7)]:
+  - @tailwindcss-mangle/config@6.1.0
+
 ## 8.2.1
 
 ### Patch Changes
